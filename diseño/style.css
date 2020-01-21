@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Roboto-thin;
+    src: url(fonts/roboto/Roboto-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto-thin;
+    font-size: 26px;
+}
+.navbar{
+    padding: 80px 95px;
+}
+.navbar-burger{
+    transform: translateY(-25%);
+}
+.section{
+    background-size: cover;
+}
+.boat-titles{
+}
+.clock-images{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+.hands-images{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+}
