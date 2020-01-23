@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto-thin;
-    font-size: 26px;
 }
 body{
     background-color: black;
@@ -16,10 +15,6 @@ body{
     position: absolute;
     z-index: -1;
     top: 0;
-}
-.navigation{
-    position: fixed;
-    z-index: 99;
 }
 .navbar{
     position: absolute;
