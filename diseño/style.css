@@ -9,24 +9,49 @@
     font-family: Roboto-thin;
     font-size: 26px;
 }
+body{
+    background-color: black;
+}
+#home-background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.navigation{
+    position: fixed;
+    z-index: 99;
+}
 .navbar{
-    padding: 80px 95px;
+    position: absolute;
+    z-index: 0;
 }
-.navbar-burger{
-    transform: translateY(-25%);
+.navbar .nav-item{
+    color: black !important;
+    font-size: 35px;
+    letter-spacing: 10px;
 }
-.section{
-    background-size: cover;
-}
-.boat-titles{
-}
-.clock-images{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-}
-.hands-images{
+.nav-text-conainer{
     display: flex;
     flex-flow: column;
-    flex-wrap: nowrap;
+}
+.underline{
+    padding-right: 80px;
+}
+#gradient{
+    position: absolute;
+    top: 0.2px;
+    opacity: 100%;
+    z-index: 500;
+}
+.text{
+    letter-spacing: 15px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+#title{
+    font-size: 80px;
+}
+#union-text{
+    color: #CC1E4A;
+    font-size: 45px;
 }
