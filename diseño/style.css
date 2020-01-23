@@ -18,23 +18,32 @@ body{
 }
 .navbar{
     position: absolute;
-    z-index: 0;
+    z-index: 1;
+    padding-left: 135px;
+    /*width: 100%;*/
 }
 .navbar .nav-item{
-    color: white !important;
-    font-size: 35px;
+    color: black !important;
+    padding-right: 50px;
+    font-size: 30px;
     letter-spacing: 10px;
 }
 .nav-text-conainer{
     display: flex;
     flex-flow: column;
 }
+.navbar-burger{
+    position: absolute;
+    right: 125px;
+    top: 45%;
+    transform: translateY(-45%);
+}
 .underline{
     padding-right: 80px;
 }
 #gradient{
     position: absolute;
-    top: 0.2px;
+    top: 0px;
     opacity: 100%;
     z-index: 500;
 }
