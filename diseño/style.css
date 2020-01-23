@@ -21,7 +21,7 @@ body{
     z-index: 0;
 }
 .navbar .nav-item{
-    color: black !important;
+    color: white !important;
     font-size: 35px;
     letter-spacing: 10px;
 }
