@@ -8,9 +8,23 @@ body{
     background-color: lightblue !important;
 }
 
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+}
 .nav-link{
     color: white !important;
     font-weight: bolder !important;
     text-transform: uppercase;
     font-size: 14px !important;
+}
+#contact-container{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#contact-title{
+    font-size: 4.5em;
+}
+#contact-text{
+    font-size: 1.5em;
 }
