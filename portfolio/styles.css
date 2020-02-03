@@ -27,7 +27,7 @@ body{
     margin-bottom: 2em;
     background-color: #327895;
 }
-#contact-title{
+.container-title{
     font-size: 4.5em;
     color: #f8ff07;
 }
