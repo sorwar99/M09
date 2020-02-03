@@ -50,3 +50,35 @@ body{
 .btn:hover{
     background-color: #f8ff07;
 }
+
+#cards-container{
+    padding: 0 1.5em;
+}
+.card-intro{
+    font-size: 1.2em !important;
+    color: #7a828a;
+}
+.card-title{
+    color: white;
+    font-size: 2em;
+}
+.card-text{
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+.c-t-1{
+    color: white;
+}
+.j1{
+    background-image: url('images/design.jpg');
+}
+.j2{
+    background-image: url("images/programacion.jpg");
+}
+.j3{
+    background-image: url("images/bussines.jpg");
+}
+.jumbotron, .j1, .j2, .j3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
