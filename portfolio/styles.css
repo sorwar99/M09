@@ -52,7 +52,7 @@ body{
     background-color: #f8ff07;
 }
 
-#cards-container{
+.body-container{
     padding: 0 1.5em;
 }
 .subtitle{
@@ -82,4 +82,14 @@ body{
 .jumbotron, .j1, .j2, .j3 {
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.module-title{
+    color: #50acc9;
+    font-weight: bold;
+}
+
+.module-image{
+    height: 300px;
+    width: auto;
 }
