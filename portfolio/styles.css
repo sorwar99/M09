@@ -27,6 +27,7 @@ body{
     margin-bottom: 2em;
     background-color: #327895;
 }
+
 .container-title{
     font-size: 4.5em;
     color: #f8ff07;
@@ -54,7 +55,7 @@ body{
 #cards-container{
     padding: 0 1.5em;
 }
-.card-intro{
+.subtitle{
     font-size: 1.2em !important;
     color: #7a828a;
 }
