@@ -30,6 +30,8 @@ body{
 }
 
 .container-title{
+    margin-right: auto;
+    margin-left: auto;
     font-size: 4.5em;
     color: #f8ff07;
 }
@@ -139,6 +141,27 @@ body{
 }
 
 .form-question{
-    /*font-size: 2em;*/
     color: #7a828a;
+}
+
+.form-text{
+    font-size: 1.2em;
+    color: #7a828a;
+}
+.form-control{
+    border: 1px solid #212429;
+}
+#footer{
+    margin-top: 2em;
+    background-color: #6c737f;
+}
+.footer-text{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer-subtitle{
+    font-style: italic;
+    font-size: 1.1em;
 }
