@@ -60,11 +60,11 @@ body{
     font-size: 1.2em !important;
     color: #7a828a;
 }
-.card-title{
+.j-title{
     color: white;
     font-size: 2em;
 }
-.card-text{
+.j-text{
     margin-top: 1.5em;
     font-size: 1.2em;
 }
@@ -85,6 +85,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.module{
+    margin: 1em 0;
+}
+
 .module-title{
     color: #50acc9;
     font-weight: bold;
@@ -93,4 +97,13 @@ body{
 .module-image{
     height: 300px;
     width: auto;
+}
+.card{
+    margin: 1em 0;
+}
+.card-body{
+    background-color: #f7ff08;
+}
+.card-title{
+    font-weight: bold;
 }
