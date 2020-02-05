@@ -107,3 +107,17 @@ body{
 .card-title{
     font-weight: bold;
 }
+.card-text{
+    text-align: center;
+    font-size: 1.1em;
+}
+.card-subtitle{
+    font-weight: bold;
+}
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+}
+.fab{
+    margin: 0.3em;
+}
