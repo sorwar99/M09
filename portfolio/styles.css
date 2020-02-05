@@ -59,6 +59,7 @@ body{
 .subtitle{
     font-size: 1.2em !important;
     color: #7a828a;
+    text-align: center;
 }
 .j-title{
     color: white;
@@ -135,4 +136,9 @@ body{
 .progress{
     background-color: grey;
     height: 1.5em;
+}
+
+.form-question{
+    /*font-size: 2em;*/
+    color: #7a828a;
 }
