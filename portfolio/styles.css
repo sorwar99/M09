@@ -169,7 +169,11 @@ a:hover{
     background-color: grey;
     height: 1.5em;
 }
-
+small{
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
 .form-question{
     color: #7a828a;
 }
