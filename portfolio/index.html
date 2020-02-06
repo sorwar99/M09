@@ -1,256 +1,244 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e3989053af.js"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="a-header" href=""><i class="fas fa-home fa-2x"></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Daw 2 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Perfiles</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Módulos
-                </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Administración de sistemas en red</a>
-                        <a class="dropdown-item" href="#">Desarrollo de aplicaciones multiplataforma</a>
-                        <a class="dropdown-item" href="#">Desarollo de aplicaciones web</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Profesorado</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-        </div>
-    </nav>
-
-    <div class="container-fluid" id="contact-container">
-        <h1 class="text-center container-title" id="contact-title">¡Apúntate!</h1>
-        <p id="contact-text">Con el curso de Desarrollo de aplicaciones WEB podrás acceder a los puestos de trabajo más demandados del mercado laboral actual y de los próximos años en: técnico en analítica web, programador en entornos cliente/servidor, especialista en posicionamiento(SEO)
-            y optimización web, community manager, especialista en social media y responsable de proyectos tic web 2.0.</p>
-        <div class="row d-flex justify-content-center">
-            <div class="button-container">
-                <button type="button" class="btn">Contacta</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e3989053af.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="a-header" href=""><i class="fas fa-home fa-2x"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Daw 2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfiles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Módulos
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Administración de sistemas en red</a>
+                            <a class="dropdown-item" href="#">Desarrollo de aplicaciones multiplataforma</a>
+                            <a class="dropdown-item" href="#">Desarollo de aplicaciones web</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profesorado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
-            <div class="button-container">
-                <button class="btn">Conócenos</button>
+        </nav>
+        <div class="container-fluid" id="contact-container">
+            <h1 class="text-center container-title" id="contact-title">¡Apúntate!</h1>
+            <p id="contact-text">Con el curso de Desarrollo de aplicaciones WEB podrás acceder a los puestos de trabajo más demandados del mercado laboral actual y de los próximos años en: técnico en analítica web, programador en entornos cliente/servidor, especialista en posicionamiento(SEO)
+                y optimización web, community manager, especialista en social media y responsable de proyectos tic web 2.0.</p>
+            <div class="row d-flex justify-content-center">
+                <div class="button-container">
+                    <button type="button" class="btn">Contacta</button>
+                </div>
+                <div class="button-container">
+                    <button class="btn">Conócenos</button>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="row body-container">
+        <div class="container">
+            <div class="row body-container">
                 <h2 class="container-title">Perfiles</h2>
                 <p class="subtitle text-center">Las habilidades y perfiles más buscados en el entorno de desarrollo web y desarrollo multiplataforma son los siguientes</p>
-            <div class="jumbotron j1">
-                <h3 class="text-center j-title">Diseño y Creatividad</h3>
-                <p class="j-text c-t-1 text-center">Un diseñador gráfico es capaz de comunicar de forma visual su trabajo haciendo uso de diferentes herramientas de retoque gráfico.</p>
-                <div class="text-center">
-                    <button type="button" class="btn">Saber más</button>
-                </div>
-            </div>
-            <div class="jumbotron j2">
-                <h3 class="text-center j-title">Programación</h3>
-                <p class="j-text c-t-1 text-center">Un programador Informático o Desarrollador de Software con un perfil idóneo para alcanzar el éxito en su carrera profesional debe tener unos requisitos concretos.</p>
-                <div class="text-center">
-                    <button type="button" class="btn">Saber más</button>
-                </div>
-            </div>
-            <div class="jumbotron j3">
-                <h3 class="text-center j-title">Emprendimiento</h3>
-                <p class="j-text c-t-1 text-center">Es emprendedor aquel que se propone a practicar lo que es nuevo, buscando encontrar caminos que lo lleven al éxito con las oportunidades que surgen en el mercado.</p>
-                <div class="text-center">
-                    <button type="button" class="btn">Saber más</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="row body-container d-flex justify-content-center" id="modules-container">
-            <h2 class="text-center container-title">Módulos</h2>
-            <p class="text-center subtitle">Estos son algunos ejemplos de lo que estudiarás a lo largo del grado superior y para lo que estarás preparado para trabajar.</p>
-            <div class="d-flex justify-content-center flex-column flex-xl-row justify-content-xl-between">
-                <div class="module">
-                    <h3 class="module-title">M06 - Desarrollo en entorno cliente</h3>
-                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
-                    <img class="module-image img-fluid" src="images/bussines.jpg">
-                </div>
-
-                <div class="module">
-                    <h3 class="module-title">M07 - Desarollo en entorno servidor</h3>
-                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
-                    <img class="module-image img-fluid" src="images/programacion.jpg">
-                </div>
-                <div class="module">
-                    <h3 class="module-title">M08 - Despliegue de aplicaciones web</h3>
-                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
-                    <img src="images/server.jpg" class="img-fluid module-image">
-                </div>
-                <div class="module">
-                    <h3 class="module-title">M09 - Diseño de interfaces</h3>
-                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
-                    <img class="module-image img-fluid" src="images/laptop.jpg">
-                </div>
-            </div>
-        </div>
-
-        <div class="row body-container">
-            <h2 class="text-center container-title w-100">Team</h2>
-            <p class="subtitle text-center">Conoce a nuestro equipo, formado por los mejores profesionales del sector del desarollo web.</p>
-            <div class="mr-auto ml-auto d-flex flex-xl-row justify-content-xl-between justify-content-center flex-column">
-                <div class="card">
-                    <img class="card-img-top" src="images/people/girl1.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Julie Rowan</h4>
-                        <h5 class="card-subtitle">Diseño de interfaces</h5>
-                        <p class="card-text">Con más de 15 años de experiencia en el sector.</p>
-                        <div class="social-media">
-                            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
-                        </div>
+                <div class="jumbotron j1">
+                    <h3 class="text-center j-title">Diseño y Creatividad</h3>
+                    <p class="j-text c-t-1 text-center">Un diseñador gráfico es capaz de comunicar de forma visual su trabajo haciendo uso de diferentes herramientas de retoque gráfico.</p>
+                    <div class="text-center">
+                        <button type="button" class="btn">Saber más</button>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/people/girl2.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Leona Elle</h4>
-                        <h5 class="card-subtitle">JavaScript</h5>
-                        <p class="card-text">Experta en animación y librerias de JS.</p>
-                        <div class="social-media">
-                            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
-                        </div>
+                <div class="jumbotron j2">
+                    <h3 class="text-center j-title">Programación</h3>
+                    <p class="j-text c-t-1 text-center">Un programador Informático o Desarrollador de Software con un perfil idóneo para alcanzar el éxito en su carrera profesional debe tener unos requisitos concretos.</p>
+                    <div class="text-center">
+                        <button type="button" class="btn">Saber más</button>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/people/guy1.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Austin Ricky</h4>
-                        <h5 class="card-subtitle">Php y Java</h5>
-                        <p class="card-text">Especialista en API's y desarrollo en base a servidor.</p>
-                        <div class="social-media">
-                            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-                            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+                <div class="jumbotron j3">
+                    <h3 class="text-center j-title">Emprendimiento</h3>
+                    <p class="j-text c-t-1 text-center">Es emprendedor aquel que se propone a practicar lo que es nuevo, buscando encontrar caminos que lo lleven al éxito con las oportunidades que surgen en el mercado.</p>
+                    <div class="text-center">
+                        <button type="button" class="btn">Saber más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row body-container d-flex justify-content-center" id="modules-container">
+                <h2 class="text-center container-title">Módulos</h2>
+                <p class="text-center subtitle">Estos son algunos ejemplos de lo que estudiarás a lo largo del grado superior y para lo que estarás preparado para trabajar.</p>
+                <div class="d-flex justify-content-center flex-column flex-xl-row justify-content-xl-between">
+                    <div class="module">
+                        <h3 class="module-title">M06 - Desarrollo en entorno cliente</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
+                        <img class="module-image img-fluid" src="images/bussines.jpg">
+                    </div>
+                    <div class="module">
+                        <h3 class="module-title">M07 - Desarollo en entorno servidor</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
+                        <img class="module-image img-fluid" src="images/programacion.jpg">
+                    </div>
+                    <div class="module">
+                        <h3 class="module-title">M08 - Despliegue de aplicaciones web</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
+                        <img src="images/server.jpg" class="img-fluid module-image">
+                    </div>
+                    <div class="module">
+                        <h3 class="module-title">M09 - Diseño de interfaces</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit.</p>
+                        <img class="module-image img-fluid" src="images/laptop.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row body-container">
+                <h2 class="text-center container-title w-100">Team</h2>
+                <p class="subtitle text-center">Conoce a nuestro equipo, formado por los mejores profesionales del sector del desarollo web.</p>
+                <div class="mr-auto ml-auto d-flex flex-xl-row justify-content-xl-between justify-content-center flex-column">
+                    <div class="card">
+                        <img class="card-img-top" src="images/people/girl1.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Julie Rowan</h4>
+                            <h5 class="card-subtitle">Diseño de interfaces</h5>
+                            <p class="card-text">Con más de 15 años de experiencia en el sector.</p>
+                            <div class="social-media">
+                                <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/people/girl2.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Leona Elle</h4>
+                            <h5 class="card-subtitle">JavaScript</h5>
+                            <p class="card-text">Experta en animación y librerias de JS.</p>
+                            <div class="social-media">
+                                <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/people/guy1.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Austin Ricky</h4>
+                            <h5 class="card-subtitle">Php y Java</h5>
+                            <p class="card-text">Especialista en API's y desarrollo en base a servidor.</p>
+                            <div class="social-media">
+                                <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+                                <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row body-container">
-            <h2 class="container-title text-center">Futuro</h2>
-            <p class="subtitle">En un sector con un amplio espectro de salidas laborales, aquí tienes algunos ejemplos de trabajos que podrás realizar
-            al finalizar el grado.</p>
-            <div class="progress-container">
-                <div class="bar-container">
-                    <p class="bar-text">Programador .net, java, php, web, multimedia</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #4800ff;">
-                            <small class="justify-content-center d-flex position-absolute w-100">90%</small>
+            <div class="row body-container">
+                <h2 class="container-title text-center">Futuro</h2>
+                <p class="subtitle">En un sector con un amplio espectro de salidas laborales, aquí tienes algunos ejemplos de trabajos que podrás realizar
+                al finalizar el grado.</p>
+                <div class="progress-container">
+                    <div class="bar-container">
+                        <p class="bar-text">Programador .net, java, php, web, multimedia</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #4800ff;">
+                                <small class="justify-content-center d-flex position-absolute w-100">90%</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="bar-container">
-                    <p class="bar-text">Desarrollador de aplicaciones para dispositivos móviles</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #e2002b;">
-                            <small class="justify-content-center d-flex position-absolute w-100">50%</small>
+                    <div class="bar-container">
+                        <p class="bar-text">Desarrollador de aplicaciones para dispositivos móviles</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #e2002b;">
+                                <small class="justify-content-center d-flex position-absolute w-100">50%</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="bar-container">
-                    <p class="bar-text">Asesor o consultor en desarrollo web</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #f5d300;">
-                            <small class="justify-content-center d-flex position-absolute w-100">80%</small>
+                    <div class="bar-container">
+                        <p class="bar-text">Asesor o consultor en desarrollo web</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #f5d300;">
+                                <small class="justify-content-center d-flex position-absolute w-100">80%</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="bar-container">
-                    <p class="bar-text">Especialista en analítica web</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #35bc48;">
-                            <small class="justify-content-center d-flex position-absolute w-100">65%</small>
+                    <div class="bar-container">
+                        <p class="bar-text">Especialista en analítica web</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #35bc48;">
+                                <small class="justify-content-center d-flex position-absolute w-100">65%</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="body-container row">
-            <h2 class="container-title">Contacto</h2>
-            <div class="contact-form w-100">
-                <h3 class="form-question h2 text-center">¿Qué dudas tienes?</h3>
-                <p class="subtitle text-center">Escribenos tus dudas y trataremos de responderte lo antes posible.</p>
-                <div class="form-container w-50 mr-auto ml-auto">
-                    <form action="#" method="get">
-                        <div class="form-group">
-                            <label class="form-text">Nombre:</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-text">Email</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-text">Mensaje</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group text-center">
-                            <input type="submit" class="btn" value="Enviar" name="submit">
-                        </div>
-                    </form>
+            <div class="body-container row">
+                <h2 class="container-title">Contacto</h2>
+                <div class="contact-form w-100">
+                    <h3 class="form-question h2 text-center">¿Qué dudas tienes?</h3>
+                    <p class="subtitle text-center">Escribenos tus dudas y trataremos de responderte lo antes posible.</p>
+                    <div class="form-container w-50 mr-auto ml-auto">
+                        <form action="#" method="get">
+                            <div class="form-group">
+                                <label class="form-text">Nombre:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-text">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-text">Mensaje</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" class="btn" value="Enviar" name="submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid d-flex flex-column" id="footer">
-        <p id="footer-title" class="h4 footer-text">DAW 2 En IES Jaume Balmes</p>
-        <p id="footer-subtitle" class="footer-text">Des del 1845 · C/Pau Claris 121, Barcelona · 93.487.03.01</p>
-        <div class="social-media d-block ml-auto mr-auto">
-            <a class="a-footer" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a class="a-footer" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a class="a-footer" href="#"><i class="fab fa-youtube fa-2x"></i></a>
-            <a class="a-footer" href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+        <div class="container-fluid d-flex flex-column" id="footer">
+            <p id="footer-title" class="h4 footer-text">DAW 2 En IES Jaume Balmes</p>
+            <p id="footer-subtitle" class="footer-text">Des del 1845 · C/Pau Claris 121, Barcelona · 93.487.03.01</p>
+            <div class="social-media d-block ml-auto mr-auto">
+                <a class="a-footer" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a class="a-footer" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a class="a-footer" href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a class="a-footer" href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+            </div>
+            <p id="footer-ender" class="footer-text">@Copyright 2020 - Daniel Cristante</p>
         </div>
-        <p id="footer-ender" class="footer-text">@Copyright 2020 - Daniel Cristante</p>
-    </div>
 </body>
-
 </html>
