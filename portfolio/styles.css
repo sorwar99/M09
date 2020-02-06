@@ -11,6 +11,24 @@ body{
 a{
     color: #212429;
 }
+.a-footer{
+    color: #9a9a9a;
+}
+.a-header{
+    color: white;
+}
+.a-header:hover{
+    color: #f8ff07 !important;
+}
+.dropdown-menu{
+    background-color: #343941;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #f8ff07 !important;
+}
 a:hover{
     color: #0e1013;
 }
@@ -20,7 +38,9 @@ a:hover{
     text-transform: uppercase;
     font-size: 0.9em !important;
 }
-
+.nav-link:hover{
+    color: #f8ff07 !important;
+}
 #home-image{
     width: 3em;
     height: auto;
@@ -184,4 +204,7 @@ a:hover{
 
 .fab{
     fill: #212429;;
+}
+.fa-home{
+    fill: white;
 }
