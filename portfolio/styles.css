@@ -8,7 +8,12 @@ body{
     max-width: 100%;
     overflow-x: hidden;
 }
-
+a{
+    color: #212429;
+}
+a:hover{
+    color: #0e1013;
+}
 .nav-link{
     color: white !important;
     font-weight: bolder !important;
@@ -175,4 +180,8 @@ body{
 }
 #footer-ender{
     padding-bottom: 2em;
+}
+
+.fab{
+    fill: #212429;;
 }
